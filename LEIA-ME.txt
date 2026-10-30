@@ -1,0 +1,29 @@
+CAÇADOR DE BETS — VERSÃO 0.2
+
+Arquivos:
+- index.html: painel web responsivo para Android.
+- manifest.webmanifest: metadados de instalação PWA.
+- sw.js: cache básico para abrir a interface offline após a primeira visita.
+
+O que esta versão faz:
+- Cadastra domínios e observações.
+- Permite registrar evidências com descrição, fonte e data.
+- Permite salvar uma classificação provisória.
+- Exporta os registros em JSON.
+- Inclui links para fontes oficiais do Ministério da Fazenda e Fala.BR.
+- Guarda os dados localmente no navegador.
+
+O que NÃO faz:
+- Não verifica automaticamente a lista oficial.
+- Não rastreia sites nem monitora 24 horas.
+- Não acessa contas, não faz depósitos, não testa saques e não invade sistemas.
+- Não comprova fraude nem legalidade por conta própria.
+
+Instalação no Android:
+1. Publique a pasta em hospedagem HTTPS (PWA exige origem segura).
+2. Abra o endereço no Chrome do Android.
+3. Menu ⋮ > Adicionar à tela inicial / Instalar aplicativo.
+4. Abra o app e use o painel. Exporte JSON periodicamente para backup.
+
+Nota legal importante consultada em 30/10/2026:
+A página do Ministério da Fazenda informa que a MP nº 1.394, de 25/09/2026, proibiu a exploração, oferta e publicidade de apostas de quota fixa no Brasil. A página lista empresas autorizadas até a vigência da MP. Verifique a legislação e os comunicados oficiais mais recentes antes de concluir qualquer análise.
